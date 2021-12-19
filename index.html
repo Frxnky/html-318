@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://scontent.fbkk4-1.fna.fbcdn.net/v/t39.30808-6/232828080_3020754348209070_7092805187801869522_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEzodfs8H3qWY8JWuyZ47hM87_SVN3lbz_zv9JU3eVvP2IUwXZ8zK6pw_1fImtsp76OF9LvjDB5dENsLNWYPi6n&_nc_ohc=m1a6QyVzMP0AX-jD4lK&tn=GvUMuR9rcOi-SvDh&_nc_zt=23&_nc_ht=scontent.fbkk4-1.fna&oh=00_AT-PFeAsZMafKWTGA6EEk5GKEayT7naoS9MNuBHYmayOLA&oe=61C4CBC7" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">MYNAME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">SKILL</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">ADRESS</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> FRANKY.</h1>
+    <p>chatmongkhon Nainammahamad.</p>
+    <img src="https://scontent.fbkk4-1.fna.fbcdn.net/v/t39.30808-6/232828080_3020754348209070_7092805187801869522_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEzodfs8H3qWY8JWuyZ47hM87_SVN3lbz_zv9JU3eVvP2IUwXZ8zK6pw_1fImtsp76OF9LvjDB5dENsLNWYPi6n&_nc_ohc=m1a6QyVzMP0AX-jD4lK&tn=GvUMuR9rcOi-SvDh&_nc_zt=23&_nc_ht=scontent.fbkk4-1.fna&oh=00_AT-PFeAsZMafKWTGA6EEk5GKEayT7naoS9MNuBHYmayOLA&oe=61C4CBC7" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Name</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>some text
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">50+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    
+    
+    <!-- Grid for pricing tables -->
+    
+
+      
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/263682133_360034512592598_7399960005205110875_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeEZSWyUddHrXMtw2BmI7-8qLscAPSimOIEuxwA9KKY4gffG3QJWALXsf2Uj_wsPO13eWWks3OcEDZ7Q49a5SCZk&_nc_ohc=dMoB2MFvIXAAX9ARp-i&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKy7qpverU_a-Grw_j2K0F8Z63MSCGr1zF3GScH_Aiamw&oe=61E56915" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>John Doe saved us from a web disaster.</p><br>
+    
+    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/s206x206/259581823_261657005936993_2155060221702553152_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeH8LrvvDHX0GiMttqYmhGbWbsiZgtwzWnZuyJmC3DNaduDDSYmDFo9iOxbyKnQHpb8z71rFqcndxv6ShVFmK65i&_nc_ohc=vWvcSYOjoOoAX9rlr3u&_nc_oc=AQmM2UGH-_zcpl-O46jGknkf3i-DTrcbidEeHX6b9MlxAZNpqbIg-KoF5A5RkMI0P_XL4w3nRJmNnjZXAfuTHJau&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVJOTTdJnqT5bU2jwQ46F93cqO-KP55J1pitdImAJyf4ZQ&oe=61E370E6" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than John Doe.</p>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://scontent.fbkk3-1.fna.fbcdn.net/v/t1.6435-9/81329896_2543361792614997_3574754666904289280_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_eui2=AeENfSOpfnJp1RIC7pwlzxnB4lVM2_SzW2PiVUzb9LNbY2lS3P-_aRtqav3jNmfbrZw77wS1qorgkO968-CN_eKB&_nc_ohc=U8G1DXrZ-lkAX8Auzzw&_nc_ht=scontent.fbkk3-1.fna&oh=00_AT-6exi8KCQVjXnGUKP3WqkGhq2Lo9bz_ylCi5IHNxRc_w&oe=61E46782" style="width:100%">
+        <img src="https://scontent.fbkk3-1.fna.fbcdn.net/v/t1.6435-9/69602039_2427612170856627_8595706272131579904_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeEH6e1HbPv-JxiKaTu_NPo_UkdP8a2-Iy9SR0_xrb4jLyZbU9isTZQxSmTr9HcQMqQ4I73QLk34IxkBI25r8ZQy&_nc_ohc=DwGCC3Y9aoMAX8CNm1_&tn=GvUMuR9rcOi-SvDh&_nc_ht=scontent.fbkk3-1.fna&oh=00_AT8qGT4bG0ZVm45oZ072mtLm8M4GeNZfaIVn-zOfFFO5qg&oe=61E34F0C" style="width:100%">
+        <img src="https://scontent.fbkk4-4.fna.fbcdn.net/v/t1.6435-9/41318497_2197928097158370_6513398847337660416_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=19026a&_nc_eui2=AeE6dOMnTbWPZ8_ZFKnp3yKsBe2IBAVGmJoF7YgEBUaYmskcfWt7v6hZKdvEcTtPBJca05wHIFWffpHHyb15Nj6g&_nc_ohc=G_1JnTkK8f8AX-WExeR&_nc_ht=scontent.fbkk4-4.fna&oh=00_AT_2VjSms8XZQgZACn_H6OCF3Iu2ccz74LOiZ0iOKDZauw&oe=61E31DC8" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://scontent.fbkk3-1.fna.fbcdn.net/v/t31.18172-8/1597583_1463193353965185_3061806203990621743_o.jpg?_nc_cat=101&ccb=1-5&_nc_sid=19026a&_nc_eui2=AeHE-KznqgaWJoxY8BZFeUyNpKHVD18NYeikodUPXw1h6HX9OpY4EB68chvnzjPp_wrEXeuhZdZn0fe3nKJOJWhw&_nc_ohc=gpqN4xrcxEgAX823_rt&_nc_ht=scontent.fbkk3-1.fna&oh=00_AT8RNAcWsCHwPyywOUDtBo_3Cguw3MRnbVmZYSFIawQv2A&oe=61E38F16" style="width:100%">
+        <img src="https://scontent.fbkk3-3.fna.fbcdn.net/v/t39.30808-6/241131125_3039854726299032_1312235552911929902_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeGx7R_LpgaUlV0MyoN1mlS_cRGp8l_YuXBxEanyX9i5cNijHN5FOH4GrtO2BxyH5ORaRxnaSkZmVYa41GsimUnJ&_nc_ohc=dxTYb14eO4cAX8FFDv-&_nc_zt=23&_nc_ht=scontent.fbkk3-3.fna&oh=00_AT-1njI8gUuNJ-Ourkw2ADA51gUIE50H8r1N-0hCg0Y2qg&oe=61C39A14" style="width:100%">
+        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/s280x280/267830607_275369254616030_7539305237357088384_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeEZwhjSSrmUJ8exrhea8SaxHUQ6g7M7KogdRDqDszsqiLSDp768bbrSdWhTUa-gaQwKSwmvJSFhyfOk8iXCn0cM&_nc_ohc=06H8BAJF0iAAX8JnLlr&_nc_oc=AQn2WMZGU3cMBwtjDIum3XkI1eRjc1LgjRtKgyYtsqBlINd-hk4S74CM4yTIHvjkzZmK9My91PjzZswOesH702Xv&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKvqQD_JvYeS-u9nsTsC9h92WhdenaMLIHikN17RQJzsw&oe=61E5B621" style="width:100%">
+        
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Address</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Thailand, ChiangMai</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 0948520035</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: Aoy.levi.v4@mail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
